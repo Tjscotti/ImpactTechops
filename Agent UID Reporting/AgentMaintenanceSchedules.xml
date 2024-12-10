@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AgentMaintenanceSchedules>
+  <DefaultRebootDelayMinutes>60</DefaultRebootDelayMinutes>
+  <ExplicitRebootWindowMessage>VGhpcyBtZXNzYWdlIGlzIGZyb20gVGhlIEltcGFjdCBOZXR3b3JraW5nIEhlbHBkZXNrLiBZb3VyIGNvbXB1dGVyIGhhcyBiZWVuIHNjaGVkdWxlZCBieSBJbXBhY3QgdG8gYmUgcmVzdGFydGVkIGluIG9yZGVyIHRvIGVuc3VyZSBzeXN0ZW0gc3RhYmlsaXR5Lg==</ExplicitRebootWindowMessage>
+  <MaintenanceWindowMessage>VGhpcyBtZXNzYWdlIGlzIGZyb20gVGhlIEltcGFjdCBOZXR3b3JraW5nIEhlbHBkZXNrLiBZb3VyIGNvbXB1dGVyIGhhcyBiZWVuIHNjaGVkdWxlZCB0byBiZSByZXN0YXJ0ZWQgaW4gb3JkZXIgdG8gY29tcGxldGUgaW1wb3J0YW50IHN5c3RlbSB1cGRhdGVzIHRoYXQgSW1wYWN0IGhhcyBhcHByb3ZlZC4=</MaintenanceWindowMessage>
+  <WindowDelayMessage>WW91ciBjb21wdXRlciB3aWxsIHJlc3RhcnQgaW4gezB9IG1pbnV0ZXMuClBsZWFzZSBzYXZlIHlvdXIgZmlsZXMgYW5kIGNsb3NlIGFueSBydW5uaW5nIGFwcGxpY2F0aW9ucy4=</WindowDelayMessage>
+  <CaptionMessage>VGhlIEltcGFjdCBOZXR3b3JraW5nIEhlbHBkZXNr</CaptionMessage>
+  <RebootMessageLogoURL>/images/agent/reboot_dialog_logo.png?customerId=1572&amp;filePath=images/agent/reboot_dialog_logo.png</RebootMessageLogoURL>
+  <RebootMessageLogoFileHash>BF9AB9DA81572C76DFD0194A616F7CA65D92E2E2</RebootMessageLogoFileHash>
+  <RebootMessageLogoLastRequestTime>637627575830000000</RebootMessageLogoLastRequestTime>
+  <MultiUserRebootNotificationDelay>5</MultiUserRebootNotificationDelay>
+  <MaintenanceSchedules>{
+  "MaintenanceSchedules": [
+    {
+      "ScheduleID": "1046077364",
+      "ScheduleName": "Patch Install - Every Saturday 12:00PM (4 hours)",
+      "RebootDelay": 0,
+      "MaintenanceWindowDuration": 240,
+      "MaintenanceType": 0,
+      "CronScehdule": "0 0 12 ? * 7 *",
+      "IsOneTime": false,
+      "UserPostponeOption": 0,
+      "RestartRunningApplications": false,
+      "MaintenanceFeatures": [
+        {
+          "Feature": "PatchManagement",
+          "Actions": [
+            {
+              "Action": "Install",
+              "Properties": [
+                "5c9376ab-8ce6-464a-b136-22113dd69801",
+                "e6cf1350-c01b-414d-a61f-263d14d133b4",
+                "e0789628-ce08-4437-be74-2495b842f43b",
+                "ebfc1fc5-71a4-4f7b-9aca-3b9a503104a0",
+                "b54e7d24-7add-428f-8b75-90a396fa584f",
+                "0fa1201d-4330-4fa8-8ae9-b877473b6441",
+                "68c5b0a3-d1a6-4553-ae49-01d3a7827828",
+                "871a0782-be12-a5c4-c57f-1bd6d9f7144e",
+                "b4832bd8-e735-4761-8daf-37f882276dab",
+                "28bc880e-0592-4cbf-8f95-c79b17911d5f",
+                "cd5ffd1e-e932-4e3a-bf74-18bf0b1bbd83",
+                "3689bdc8-b205-4af4-8d4a-a63924c5e9d5"
+              ]
+            }
+          ]
+        }
+      ],
+      "ComponentsWhichGotUpdated": [],
+      "LastUpdated": "2021-10-28T16:37:09"
+    },
+    {
+      "ScheduleID": "1451860617",
+      "ScheduleName": "Patch Pre-Download - Every Saturday 10:00AM (2 hours)",
+      "RebootDelay": 0,
+      "MaintenanceWindowDuration": 120,
+      "MaintenanceType": 0,
+      "CronScehdule": "0 0 10 ? * 7 *",
+      "IsOneTime": false,
+      "UserPostponeOption": 0,
+      "RestartRunningApplications": false,
+      "MaintenanceFeatures": [
+        {
+          "Feature": "PatchManagement",
+          "Actions": [
+            {
+              "Action": "Download",
+              "Properties": []
+            }
+          ]
+        }
+      ],
+      "ComponentsWhichGotUpdated": [],
+      "LastUpdated": "2021-10-15T18:34:47"
+    },
+    {
+      "ScheduleID": "698453190",
+      "ScheduleName": "Patch Reboot - Every Saturday 4:00PM (3 hours)",
+      "RebootDelay": 180,
+      "MaintenanceWindowDuration": 180,
+      "MaintenanceType": 1,
+      "CronScehdule": "0 0 16 ? * 7 *",
+      "IsOneTime": false,
+      "UserPostponeOption": 0,
+      "RestartRunningApplications": false,
+      "UserMessage": "VGhpcyBtZXNzYWdlIGlzIGZyb20gVGhlIEltcGFjdCBOZXR3b3JraW5nIE1hbmFnZWQgSVQgT3BlcmF0aW9ucyBUZWFtLiBZb3VyIGNvbXB1dGVyIGhhcyBiZWVuIHNjaGVkdWxlZCBieSBJbXBhY3QgdG8gYmUgcmVzdGFydGVkIGluIG9yZGVyIHRvIGVuc3VyZSBzeXN0ZW0gc3RhYmlsaXR5Lg==",
+      "MessageSender": "VGhlIEltcGFjdCBOZXR3b3JraW5nIE1hbmFnZWQgSVQgT3BlcmF0aW9ucyBUZWFt",
+      "MaintenanceFeatures": [],
+      "ComponentsWhichGotUpdated": [],
+      "LastUpdated": "2021-06-30T23:21:58"
+    },
+    {
+      "ScheduleID": "210968079",
+      "ScheduleName": "Patch Detection - Every Day 12:00AM, 4:00AM, 8:00AM, 12:00PM, 4:00PM, 8:00PM (1 hours)",
+      "RebootDelay": 0,
+      "MaintenanceWindowDuration": 60,
+      "MaintenanceType": 0,
+      "CronScehdule": "0 0 0,4,8,12,16,18,20 * * ? *",
+      "IsOneTime": false,
+      "UserPostponeOption": 0,
+      "RestartRunningApplications": false,
+      "MaintenanceFeatures": [
+        {
+          "Feature": "PatchManagement",
+          "Actions": [
+            {
+              "Action": "Detect",
+              "Properties": []
+            }
+          ]
+        }
+      ],
+      "LastUpdated": "2024-11-10T22:46:21"
+    }
+  ]
+}</MaintenanceSchedules>
+  <LastKnownRebootAttemptDateUTC />
+  <RebootPostponedMessage>VGhlIHJlcXVlc3RlZCByZWJvb3Qgd2FzIGNhbmNlbGxlZCBkdWUgdG8gYW4gaW4gcHJvZ3Jlc3Mgb3BlcmF0aW9uIGJ5IFRoZSBJbXBhY3QgTmV0d29ya2luZyBIZWxwZGVzay4gVGhlIHJlYm9vdCB3aWxsIGJlIHJlcXVlc3RlZCBhZ2FpbiBvbmNlIHRoZSBvcGVyYXRpb24gaXMgY29tcGxldGUuIFRoYW5rIHlvdSBmb3IgeW91ciBwYXRpZW5jZS4=</RebootPostponedMessage>
+</AgentMaintenanceSchedules>

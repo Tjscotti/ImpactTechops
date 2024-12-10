@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExecutionerConfig>
+  <enabled>False</enabled>
+  <executionStdout />
+  <enableTransitionProcessed>False</enableTransitionProcessed>
+  <signature>0</signature>
+  <executionStatus>Unknown</executionStatus>
+  <executionErrorDetails />
+  <executionerSteps>
+    <ArrayOfExecutionerStep xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <ExecutionerStep>
+        <AttemptedExecutionCount>0</AttemptedExecutionCount>
+        <StepStatus>Unknown</StepStatus>
+        <ExecutionerUN>LocalSystem</ExecutionerUN>
+        <StepName>ECO_AGENT_InstallStep</StepName>
+        <DependsOnSteps>
+          <string>ECO_AGENT_PreInstallStep</string>
+        </DependsOnSteps>
+        <ContentSHA1>4256fbf29792ceb8e60f0b278231595cac49ecdc</ContentSHA1>
+        <ContentSize>11236856</ContentSize>
+        <ContentType>URL</ContentType>
+        <CommandLine>/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG /platform=NCentral /agentkey=b1b202b8-a855-4a08-b4aa-655e5f12487f /enckey=e8d9b9e2-3615-492c-91ac-a90e47f928ac /agentid=1507658824 /serverendpoint=inc0.impactnetworking.com:443 /upgrademetadatafile=Ecosystem.AgentSetup_details.json /upgrademetadatalocation=https://assets.prd.esp.system-monitor.com/ComponentData/MSP-Ecosystem/N-Central/us-west-2/5/Ecosystem.AgentSetup_details.json</CommandLine>
+        <ContentURL>https://assets.prd.esp.system-monitor.com/Components/MSP-Ecosystem/Windows/5.1.5.2519/Ecosystem.AgentSetup.exe</ContentURL>
+        <MaxAttempts>10</MaxAttempts>
+        <RetryInterval>300</RetryInterval>
+        <FatalExitCodes>
+          <int>1</int>
+        </FatalExitCodes>
+        <SuccessfulExitCodes>
+          <int>0</int>
+        </SuccessfulExitCodes>
+        <IntegrationId>ECO_AGENT_CFG</IntegrationId>
+        <UseMaintenanceWindow>false</UseMaintenanceWindow>
+        <MaintenanceWindowAction>{ECOSYSTEM_UNDEFINED}</MaintenanceWindowAction>
+      </ExecutionerStep>
+      <ExecutionerStep>
+        <AttemptedExecutionCount>0</AttemptedExecutionCount>
+        <StepStatus>Unknown</StepStatus>
+        <ExecutionerUN>LocalSystem</ExecutionerUN>
+        <StepName>ECO_AGENT_PostInstallStep</StepName>
+        <DependsOnSteps>
+          <string>ECO_AGENT_InstallStep</string>
+        </DependsOnSteps>
+        <ContentSHA1>ee5a5abaf8a3a79b773cc2b06617a6ed2a625735</ContentSHA1>
+        <ContentSize>19184</ContentSize>
+        <ContentType>URL</ContentType>
+        <ContentURL>https://assets.prd.esp.system-monitor.com/Components/MSP-Ecosystem/Windows/5.1.5.2519/Msp.Ecosystem.Discovery-5.1.5.2519.exe</ContentURL>
+        <MaxAttempts>10</MaxAttempts>
+        <RetryInterval>300</RetryInterval>
+        <FatalExitCodes>
+          <int>999</int>
+        </FatalExitCodes>
+        <SuccessfulExitCodes>
+          <int>0</int>
+        </SuccessfulExitCodes>
+        <IntegrationId>ECO_AGENT_CFG</IntegrationId>
+        <UseMaintenanceWindow>false</UseMaintenanceWindow>
+        <MaintenanceWindowAction>{ECOSYSTEM_UNDEFINED}</MaintenanceWindowAction>
+      </ExecutionerStep>
+      <ExecutionerStep>
+        <AttemptedExecutionCount>0</AttemptedExecutionCount>
+        <StepStatus>Unknown</StepStatus>
+        <ExecutionerUN>LocalSystem</ExecutionerUN>
+        <StepName>ECO_AGENT_PreInstallStep</StepName>
+        <ContentSHA1>ee5a5abaf8a3a79b773cc2b06617a6ed2a625735</ContentSHA1>
+        <ContentSize>19184</ContentSize>
+        <ContentType>URL</ContentType>
+        <ContentURL>https://assets.prd.esp.system-monitor.com/Components/MSP-Ecosystem/Windows/5.1.5.2519/Msp.Ecosystem.Discovery-5.1.5.2519.exe</ContentURL>
+        <MaxAttempts>10</MaxAttempts>
+        <RetryInterval>300</RetryInterval>
+        <FatalExitCodes>
+          <int>0</int>
+        </FatalExitCodes>
+        <SuccessfulExitCodes>
+          <int>999</int>
+        </SuccessfulExitCodes>
+        <IntegrationId>ECO_AGENT_CFG</IntegrationId>
+        <UseMaintenanceWindow>false</UseMaintenanceWindow>
+        <MaintenanceWindowAction>{ECOSYSTEM_UNDEFINED}</MaintenanceWindowAction>
+      </ExecutionerStep>
+    </ArrayOfExecutionerStep>
+  </executionerSteps>
+  <executionerConfigSignature>0</executionerConfigSignature>
+</ExecutionerConfig>

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplianceConfig>
+  <DeployType>agent</DeployType>
+  <AsyncStartup>True</AsyncStartup>
+  <UseNewUpdate>True</UseNewUpdate>
+  <CountNewUpdate>0</CountNewUpdate>
+  <logLevel>3</logLevel>
+  <LogLevelReadOnly>False</LogLevelReadOnly>
+  <ApplianceID>831542004</ApplianceID>
+  <Version>2.0.0</Version>
+  <ApplianceVersion>2024.2.0.20</ApplianceVersion>
+  <AgentOS>Windows 10 Enterprise Build (22621)</AgentOS>
+  <AgentOSID>win2000</AgentOSID>
+  <Is64Bit>True</Is64Bit>
+  <BootOption>0</BootOption>
+  <UsePerfMon>True</UsePerfMon>
+  <MaxDownloadAttempts>5</MaxDownloadAttempts>
+  <MaxThreads>100</MaxThreads>
+  <VMwareThreadPool_Enabled>True</VMwareThreadPool_Enabled>
+  <VMwareThreadPool_MaxThreadsPerPool>50</VMwareThreadPool_MaxThreadsPerPool>
+  <VMwareThreadPool_ReportStatsIntervalInSecs>300</VMwareThreadPool_ReportStatsIntervalInSecs>
+  <VMwareMapUnknownState>failure</VMwareMapUnknownState>
+  <ServerPoll>300000</ServerPoll>
+  <EnableSolarwindsV1V2>False</EnableSolarwindsV1V2>
+  <UseOSPPVBS>True</UseOSPPVBS>
+  <NoLimitOracleQuery>False</NoLimitOracleQuery>
+  <RemoteExecutionMaxThreads>20</RemoteExecutionMaxThreads>
+  <RemoteExecutionPoll>45000</RemoteExecutionPoll>
+  <WorkScheduler>1000</WorkScheduler>
+  <ServerBusyWaitTime>900000</ServerBusyWaitTime>
+  <serverTimestamp>2024-11-01 23:31:03.503 -05:00</serverTimestamp>
+  <serverAgentClockSkew>4</serverAgentClockSkew>
+  <NetworkErrorMinWaitTime>300000</NetworkErrorMinWaitTime>
+  <NetworkErrorMaxWaitTime>1200000</NetworkErrorMaxWaitTime>
+  <RestartOnNetworkErrorAfterMinutes>120</RestartOnNetworkErrorAfterMinutes>
+  <DataSenderInterval>10000</DataSenderInterval>
+  <InvalidApplianceStartTime>0</InvalidApplianceStartTime>
+  <DataSubmitWaitTime>10000</DataSubmitWaitTime>
+  <DataSubmitWaitCount>6</DataSubmitWaitCount>
+  <TempLocation>C:\Temp</TempLocation>
+  <AM_DefaultTempFileCleanPeriod>24</AM_DefaultTempFileCleanPeriod>
+  <SOLIDERMaxThreads>1000</SOLIDERMaxThreads>
+  <FileTransferResponseInterval>5</FileTransferResponseInterval>
+  <TCPTimeOut>0</TCPTimeOut>
+  <UDPTimeOut>200</UDPTimeOut>
+  <TaskScanTimeHistorySize>0</TaskScanTimeHistorySize>
+  <SetupFileToDelete />
+  <CheckerLogSent>True</CheckerLogSent>
+  <DiscoveryJobs />
+  <CustomerID>-1</CustomerID>
+  <CompletedRegistration>True</CompletedRegistration>
+  <IsXMPPAllowed>True</IsXMPPAllowed>
+  <ReadtimeoutInSeconds>150</ReadtimeoutInSeconds>
+  <WaittimeoutInSeconds>135</WaittimeoutInSeconds>
+  <Password />
+  <Passwordencrypt>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlZ2IBjRcPU2UPqrU+SU0awQAAAACAAAAAAAQZgAAAAEAACAAAACrxKIkSrJX6kJ3NNTQ7qCusUag/eYXTUw45akqleid4gAAAAAOgAAAAAIAACAAAAAQsWcAjbnDOFUbd0Sbek63atYVJyOpI7GxoWcClkw5pSAAAAA5SKvp5WeOfdBYtObnrhWxCNiKE8XebV7exrqXTrQG4UAAAADs/Ot4sH6zTr5htZ44xdLRefuwDquUFt5DBQvD3NNelUid2S/uXKkjv7aYoj832i6/QsKWy+Rxa8oLiCRHwJdX</Passwordencrypt>
+  <URL>aHR0cHM6Ly9pbmM0LmltcGFjdG5ldHdvcmtpbmcuY29tL2Jvc2gvYm9zaC8=</URL>
+  <IsManaged>True</IsManaged>
+  <UseGVExec>True</UseGVExec>
+  <GVExeFilename />
+  <PsexecFileSize>0</PsexecFileSize>
+  <PsexecUseOld>False</PsexecUseOld>
+  <PsexecDownloadURL />
+  <PsexecFileDigest />
+  <SISServerURL>https://sis.n-able.com</SISServerURL>
+  <SISServerURLReadOnly>False</SISServerURLReadOnly>
+  <SISDownloadTimeoutMilliseconds>3600000</SISDownloadTimeoutMilliseconds>
+  <Test_DisableSISDownload>False</Test_DisableSISDownload>
+  <MaximumRepositorySize>5120</MaximumRepositorySize>
+  <ProbeRepositoryEndpoints>
+    <ArrayOfProbeRepositoryEndpoint xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <ProbeRepositoryEndpoint>
+        <Host>192.168.1.136</Host>
+        <Port>10004</Port>
+        <AuthenticationKey>1305016379</AuthenticationKey>
+      </ProbeRepositoryEndpoint>
+      <ProbeRepositoryEndpoint>
+        <Host>10.125.10.205</Host>
+        <Port>10004</Port>
+        <AuthenticationKey>364844755</AuthenticationKey>
+      </ProbeRepositoryEndpoint>
+      <ProbeRepositoryEndpoint>
+        <Host>192.168.1.120</Host>
+        <Port>10004</Port>
+        <AuthenticationKey>384731168</AuthenticationKey>
+      </ProbeRepositoryEndpoint>
+      <ProbeRepositoryEndpoint>
+        <Host>192.168.1.136</Host>
+        <Port>10004</Port>
+        <AuthenticationKey>944721185</AuthenticationKey>
+      </ProbeRepositoryEndpoint>
+    </ArrayOfProbeRepositoryEndpoint>
+  </ProbeRepositoryEndpoints>
+  <DisableLastLoginDataCollection>False</DisableLastLoginDataCollection>
+  <WaitUninstallOrphanReadOnly>False</WaitUninstallOrphanReadOnly>
+  <RegexMultiLine>True</RegexMultiLine>
+  <RegexIgnoreCase>True</RegexIgnoreCase>
+  <WaitUninstallOrphanSecs>432000</WaitUninstallOrphanSecs>
+  <WaitUninstallOrphanCheckIntervalSecs>18000</WaitUninstallOrphanCheckIntervalSecs>
+  <UseProbeCache>True</UseProbeCache>
+  <ProbeVersions>
+    <ArrayOfHostVersionPairOfStringStringInt32 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <HostVersionPairOfStringStringInt32>
+        <Host>10.125.10.205</Host>
+        <Version>2022.2.0.77</Version>
+        <Priority>1</Priority>
+      </HostVersionPairOfStringStringInt32>
+      <HostVersionPairOfStringStringInt32>
+        <Host>192.168.1.136</Host>
+        <Version>2024.2.0.20</Version>
+        <Priority>1</Priority>
+      </HostVersionPairOfStringStringInt32>
+      <HostVersionPairOfStringStringInt32>
+        <Host>192.168.1.120</Host>
+        <Version>2022.6.0.23</Version>
+        <Priority>1</Priority>
+      </HostVersionPairOfStringStringInt32>
+    </ArrayOfHostVersionPairOfStringStringInt32>
+  </ProbeVersions>
+  <PendingReboots />
+  <TraceComponent />
+  <RebootDelay>0</RebootDelay>
+  <PendingRebootTS>0</PendingRebootTS>
+  <ForceReboot>True</ForceReboot>
+  <MaxEventLogRecords>1000</MaxEventLogRecords>
+  <ConnectionErrorState>Misconfigured</ConnectionErrorState>
+  <AllowFirewallChanges>True</AllowFirewallChanges>
+  <genericFilesTimestamp>1728443796</genericFilesTimestamp>
+  <repositoryTimestamp>638665060411009516</repositoryTimestamp>
+  <ScheduledDowntimeEnabled>False</ScheduledDowntimeEnabled>
+  <LastPatchDiscoveryDate>1/1/2005</LastPatchDiscoveryDate>
+  <TunnelStunEndpoint>stun1.n-able.com:3478</TunnelStunEndpoint>
+  <TunnelURL>https://inc4.impactnetworking.com:443/tunnel/request.tunnel</TunnelURL>
+  <_runServiceOnSafeBootWithNetwork>True</_runServiceOnSafeBootWithNetwork>
+  <CurrentLoggedInUserScanInterval>5</CurrentLoggedInUserScanInterval>
+  <RemoteTaskHandlerStartDelayMinutes>5</RemoteTaskHandlerStartDelayMinutes>
+  <PatchSuppressionTimeoutMinutes>360</PatchSuppressionTimeoutMinutes>
+  <InstallDotNet4>True</InstallDotNet4>
+  <ThirdPartyPatchVersion />
+  <SNMPDeviceResetDetection>True</SNMPDeviceResetDetection>
+  <DelayForMaintenanceRecordDelete>300000</DelayForMaintenanceRecordDelete>
+  <Force64bitWindowsScheduler>False</Force64bitWindowsScheduler>
+  <UseWindowsSchedulerAsFallBackForExecution>True</UseWindowsSchedulerAsFallBackForExecution>
+  <AssetDiscoveryAfterInstallation>False</AssetDiscoveryAfterInstallation>
+  <boshUrlPath>/bosh/bosh/</boshUrlPath>
+  <directBoshUrlPath1>/bosh/bosh/</directBoshUrlPath1>
+  <directBoshUrlScheme1>https</directBoshUrlScheme1>
+  <directBoshPort1>443</directBoshPort1>
+  <directBoshUrlPath2>/bosh/bosh/</directBoshUrlPath2>
+  <directBoshUrlScheme2>https</directBoshUrlScheme2>
+  <directBoshPort2>443</directBoshPort2>
+  <xmppChunkInKBytes>500</xmppChunkInKBytes>
+  <CheckDataSizeBeforeSubmit>True</CheckDataSizeBeforeSubmit>
+  <PatchSubmissionWindowInMinutes>30</PatchSubmissionWindowInMinutes>
+  <PatchCacheListeningInterface>0.0.0.0</PatchCacheListeningInterface>
+  <PatchIgnoreSucceededWithErrorsResultCode>True</PatchIgnoreSucceededWithErrorsResultCode>
+  <PatchDisableWUAAccessRegistryUpdated>False</PatchDisableWUAAccessRegistryUpdated>
+  <PatchOnlyUseWSUS>False</PatchOnlyUseWSUS>
+  <PatchPrerequisitesEnabled>True</PatchPrerequisitesEnabled>
+  <PatchFullScanAtStartup>False</PatchFullScanAtStartup>
+  <PatchSecurityUpdatesFeatureEnabled>True</PatchSecurityUpdatesFeatureEnabled>
+  <PatchAnniversaryUpdatesFeatureEnabled>True</PatchAnniversaryUpdatesFeatureEnabled>
+  <PatchPrerequisitesTimeoutMinutes>720</PatchPrerequisitesTimeoutMinutes>
+  <PatchOomFailSafeEnabled>True</PatchOomFailSafeEnabled>
+  <PatchFeatureUpdatesExtendedScanFeatureEnabled>True</PatchFeatureUpdatesExtendedScanFeatureEnabled>
+  <PatchInstallOnWakeEnabled>True</PatchInstallOnWakeEnabled>
+  <PatchWuaTamperProofingDisabled>True</PatchWuaTamperProofingDisabled>
+  <DODownloadMode>0</DODownloadMode>
+  <DODownloadModeOriginal />
+  <xmppInitialReconnectDelay>30</xmppInitialReconnectDelay>
+  <xmppMaxReconnectDelay>300</xmppMaxReconnectDelay>
+  <httpPollingDelay>900</httpPollingDelay>
+  <directSupportActionTimeout>2880</directSupportActionTimeout>
+  <xmppHeartBeat>60</xmppHeartBeat>
+  <mspid>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlZ2IBjRcPU2UPqrU+SU0awQAAAACAAAAAAAQZgAAAAEAACAAAADwyyh7/bUjIizur3JmZnZLqy+KDAd7ineYuwpU9PmD/gAAAAAOgAAAAAIAACAAAACzOUPCvQHOPaz/0V6O8KdCl/KzpBMQ8uLZd49gnFVEwzAAAACN3MZVWB8lqiegFBlEi0xW4fgbWNnA4hU0xzswzmS65tlfYX11McZm7rmdeON7dzFAAAAAuvHfl+g8NAHYh0+GZP6njwlQF7d+ThnLFpvY0Pr1SH6g1xpBlo76XLFB6tYiXdhdT1rO/QeXVWtlW8rqMZhnbA==</mspid>
+  <TestHeadTimeout>25</TestHeadTimeout>
+  <SNMP_DNS_CHECK>False</SNMP_DNS_CHECK>
+  <ResetPrimaryXmppConfigOnStartup>False</ResetPrimaryXmppConfigOnStartup>
+  <primaryBoshConfig>False</primaryBoshConfig>
+  <lwtS1Status>Unknown</lwtS1Status>
+  <LwtState>NullState</LwtState>
+  <LwtS1RebootRequestTime />
+</ApplianceConfig>
